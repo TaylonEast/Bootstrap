@@ -3,16 +3,85 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <title>Berlin B&B</title>
+        <title>Berlin Executive</title>
     </head>
 
     <body>
-        <h1>Berlin B&B</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Berlin Executive Hotel</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact US</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <h1>Berlin's Best B&B</h1>
+        <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="bed.jpg" class="d-block mx-auto" alt="bed" style="width:1200px;height:600px">
+              </div>
+              <div class="carousel-item">
+                <img src="bathroom.jpeg" class="d-block mx-auto" alt="bathroom" style="width:1200px;height:600px">
+              </div>
+              <div class="carousel-item">
+                <img src="pool.jpg" class="d-block mx-auto" alt="pool" style="width:1200px;height:600px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         
-        
+        <div class="cards3">
+          <div class="card" style="width: 18rem;">
+            <img src="city.jpg" class="card-img-top" alt="city">
+            <div class="card-body">
+              <h5 class="card-title">Explore Berlin</h5>
+              <p class="card-text">Click here for some must see landmarks around the city!</p>
+              <a href="#" class="btn btn-primary">Go</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="park.jpg" class="card-img-top" alt="park">
+            <div class="card-body">
+              <h5 class="card-title">Contact Us</h5>
+              <p class="card-text">Click here for a form to contact us with any questions you may have!</p>
+              <a href="contact.html" class="btn btn-primary">Go</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="bedroom.jpg" class="card-img-top" alt="bedroom">
+            <div class="card-body">
+              <h5 class="card-title">Room Types</h5>
+              <p class="card-text">Click here to see the room types that we offer!</p>
+              <a href="#" class="btn btn-primary">Go</a>
+            </div>
+          </div>
+        </div>
+
+
         
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <footer>113 West Main Street- +23(321)-3432- berlinexecutivehotel@gmail.com</footer>
     </body>
 </html>
